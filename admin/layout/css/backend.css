@@ -1,0 +1,107 @@
+/* start main rulez */
+
+body {
+    background-color: #f4f4f4;
+}
+
+.asterisk {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    font-size: 30px;
+    color: #d20707;
+}
+
+/* end main rulez */
+
+/* start-login-form */
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .form-control {
+    background-color: #eaeaea;
+}
+
+.login .btn {
+    background-color: #008dde;
+}
+
+/* end-login-form */
+
+/* Start BootStrap Edit */
+
+.navbar-dark .navbar-nav .show>.nav-link, .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active, .dropdown-menu {
+    background-color: #008dde;
+    padding: 10px;
+}
+
+.dropdown-menu {
+    background-color: #008dde;
+    min-width: 180px;
+    padding: 5px;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+}
+
+.dropdown-item, .navbar-brand {
+    color: #eaeaea;
+    padding: 15px 12px;
+    font-size: 1em;
+}
+
+.dropdown-menu a:hover, .dropdown-menu a:focus {
+    background-color: #8e44ad;
+    color: #eaeaea;
+}
+
+.form-control {
+    position: relative;
+}
+
+/* End BootStrap Edit */
+
+/* Start Member  Page  */
+
+h1 {
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.show-pass {
+    position: absolute;
+    top: 6px;
+    right: -30px;
+}
+
+.main-table {
+    -webkit-box-shadow: 0 3px 10px #ccc;
+    -moz-box-shadow: 0 3px 10px #ccc;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.main-table td {
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.main-table button {
+    padding: 3px 10px;
+}
+
+/* end Member  Page  */
